@@ -2,9 +2,8 @@
 matrix:
   include:    
     - language: c  
-      sudo: false # only for faster builds  
+      sudo: false  
       compiler:
-        - clang
         - gcc
       script:  
         - gcc -o My_program My_program.c 
