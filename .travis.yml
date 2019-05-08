@@ -1,12 +1,9 @@
 language: c
-sudo: false # only for faster builds
-compiler: 
-- clang
-- gcc
+sudo: false # only for faster build
 script:
- - gcc My_program.c
- - gcc code-1.c
- - gcc anil1.c
+ - clang -coverage -00 My_program.c -o My_program
  - ./My_program
+ - clang -coverage -00 My_program.c -o code-1
  - ./code-1.c
+ - clang -coverage -00 My_program.c -o anil1
  - ./anil1.c
