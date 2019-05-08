@@ -9,7 +9,7 @@ matrix:
       script:  
         - gcc -o My_program My_program.c 
         - ./My_program
-        - gcc -o code-1 code-1.c
-        - ./code-1
+        - gcc -o code1 code1.c
+        - ./code1
         - gcc -o anil1 anil1.c
         - ./anil1
