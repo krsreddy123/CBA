@@ -7,4 +7,6 @@ script:
  - gcc My_program.c
  - gcc code-1.c
  - gcc anil1.c
- - ./test 
+ - ./My_program
+ - ./code-1.c
+ - ./anil1.c
