@@ -1,0 +1,28 @@
+#include<stdio.h>
+#include<conio.h>
+void main()
+{
+    int a,b,c,d,e,f;
+    
+    printf("Enter Two Values :");
+    scanf("%d%d",&a,&b);
+    sum(a,b);
+    mult(a,b);
+   
+    getch();
+}
+    sum(int x,int y)
+      {
+            int z;
+            z=x+y;
+            printf("Addtion : %d\n",z);
+            return 0;
+      }
+    mult(int x,int y)
+     {
+            int z;
+            z=x*y;
+            printf("Multiply : %d\n",z);
+            return 0;
+      }
+    
