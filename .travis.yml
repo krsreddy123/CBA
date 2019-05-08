@@ -3,7 +3,7 @@ sudo: false # only for faster build
 script:
  - clang -coverage -00 My_program.c -o My_program
  - ./My_program
- - clang -coverage -00 My_program.c -o code-1
+ - clang -coverage -00 code1.c -o code-1
  - ./code-1.c
- - clang -coverage -00 My_program.c -o anil1
+ - clang -coverage -00 anil1.c -o anil1
  - ./anil1.c
