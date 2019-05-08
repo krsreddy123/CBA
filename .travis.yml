@@ -6,6 +6,5 @@ compiler:
 script:
  - gcc My_program.c
  - gcc code-1.c
- - gcc anil.c
- - gcc ani
+ - gcc anil1.c
  - ./test 
