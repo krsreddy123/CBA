@@ -1,41 +1,22 @@
-#include<stdio.h>
-#include<conio.h>
-void main()
+#include <stdio.h>
+int main()
 {
-    int a,b,c,d,e,f;
-   
-    printf("Enter Two Values :");
-   a=12;
-   b=20;
-    sum(a,b);
-    mult(a,b);
-    div(a,b);
-    if(a>b)
-     printrf("%d is biggest",a);
-    else
-     printf("%d is biggest",b);
+    int i, space, rows=5, k=0;
+    for(i=1; i<=rows; ++i, k=0)
+    {
+        for(space=1; space<=rows-i; ++space)
+        {
+            printf("  ");
+        }
 
+        while(k != 2*i-1)
+        {
+            printf("* ");
+            ++k;
+        }
+
+        printf("\n");
+    }
+    
+    return 0;
 }
-    sum(int x,int y)
-      {
-            int z;
-            z=x+y;
-            printf("Addtion : %d\n",z);
-            return 0;
-      }
-    mult(int x,int y)
-     {
-            int z;
-            z=x*y;
-            printf("Multiply : %d\n",z);
-            return 0;
-      }
-     div(int x,int y)
-     {
-            int z;
-            z=x/y;
-            printf("Div : %d\n",z);
-            return 0;
-      }
-
-
