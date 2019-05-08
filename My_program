@@ -4,8 +4,7 @@ int main()
 {
   int x=10, y=6;
  
-  printf("Enter two integers\n");
-  scanf("%d%d", &x, &y);
+ 
  
   printf("Before Swapping\nFirst integer = %d\nSecond integer = %d\n", x, y);
  
